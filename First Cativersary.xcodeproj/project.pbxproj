@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55C153E1AE0E3B800431774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C153D1AE0E3B800431774 /* AppDelegate.swift */; };
+		C55C15401AE0E3B800431774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C153F1AE0E3B800431774 /* ViewController.swift */; };
+		C55C15431AE0E3B800431774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55C15411AE0E3B800431774 /* Main.storyboard */; };
+		C55C15451AE0E3B800431774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55C15441AE0E3B800431774 /* Images.xcassets */; };
+		C55C15481AE0E3B800431774 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C55C15461AE0E3B800431774 /* LaunchScreen.xib */; };
+		C55C15541AE0E3B800431774 /* First_CativersaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55C15531AE0E3B800431774 /* First_CativersaryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C55C154E1AE0E3B800431774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55C15301AE0E3B700431774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55C15371AE0E3B700431774;
+			remoteInfo = "First Cativersary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C55C15381AE0E3B800431774 /* First Cativersary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Cativersary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55C153C1AE0E3B800431774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55C153D1AE0E3B800431774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C55C153F1AE0E3B800431774 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C55C15421AE0E3B800431774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55C15441AE0E3B800431774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C55C15471AE0E3B800431774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C55C154D1AE0E3B800431774 /* First CativersaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First CativersaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55C15521AE0E3B800431774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55C15531AE0E3B800431774 /* First_CativersaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_CativersaryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55C15351AE0E3B700431774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C154A1AE0E3B800431774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55C152F1AE0E3B700431774 = {
+			isa = PBXGroup;
+			children = (
+				C55C153A1AE0E3B800431774 /* First Cativersary */,
+				C55C15501AE0E3B800431774 /* First CativersaryTests */,
+				C55C15391AE0E3B800431774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55C15391AE0E3B800431774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55C15381AE0E3B800431774 /* First Cativersary.app */,
+				C55C154D1AE0E3B800431774 /* First CativersaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55C153A1AE0E3B800431774 /* First Cativersary */ = {
+			isa = PBXGroup;
+			children = (
+				C55C153D1AE0E3B800431774 /* AppDelegate.swift */,
+				C55C153F1AE0E3B800431774 /* ViewController.swift */,
+				C55C15411AE0E3B800431774 /* Main.storyboard */,
+				C55C15441AE0E3B800431774 /* Images.xcassets */,
+				C55C15461AE0E3B800431774 /* LaunchScreen.xib */,
+				C55C153B1AE0E3B800431774 /* Supporting Files */,
+			);
+			path = "First Cativersary";
+			sourceTree = "<group>";
+		};
+		C55C153B1AE0E3B800431774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55C153C1AE0E3B800431774 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C55C15501AE0E3B800431774 /* First CativersaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C55C15531AE0E3B800431774 /* First_CativersaryTests.swift */,
+				C55C15511AE0E3B800431774 /* Supporting Files */,
+			);
+			path = "First CativersaryTests";
+			sourceTree = "<group>";
+		};
+		C55C15511AE0E3B800431774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55C15521AE0E3B800431774 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55C15371AE0E3B700431774 /* First Cativersary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55C15571AE0E3B800431774 /* Build configuration list for PBXNativeTarget "First Cativersary" */;
+			buildPhases = (
+				C55C15341AE0E3B700431774 /* Sources */,
+				C55C15351AE0E3B700431774 /* Frameworks */,
+				C55C15361AE0E3B700431774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "First Cativersary";
+			productName = "First Cativersary";
+			productReference = C55C15381AE0E3B800431774 /* First Cativersary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55C154C1AE0E3B800431774 /* First CativersaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55C155A1AE0E3B800431774 /* Build configuration list for PBXNativeTarget "First CativersaryTests" */;
+			buildPhases = (
+				C55C15491AE0E3B800431774 /* Sources */,
+				C55C154A1AE0E3B800431774 /* Frameworks */,
+				C55C154B1AE0E3B800431774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55C154F1AE0E3B800431774 /* PBXTargetDependency */,
+			);
+			name = "First CativersaryTests";
+			productName = "First CativersaryTests";
+			productReference = C55C154D1AE0E3B800431774 /* First CativersaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55C15301AE0E3B700431774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michael Bonifacio";
+				TargetAttributes = {
+					C55C15371AE0E3B700431774 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C55C154C1AE0E3B800431774 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C55C15371AE0E3B700431774;
+					};
+				};
+			};
+			buildConfigurationList = C55C15331AE0E3B700431774 /* Build configuration list for PBXProject "First Cativersary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55C152F1AE0E3B700431774;
+			productRefGroup = C55C15391AE0E3B800431774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55C15371AE0E3B700431774 /* First Cativersary */,
+				C55C154C1AE0E3B800431774 /* First CativersaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55C15361AE0E3B700431774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55C15431AE0E3B800431774 /* Main.storyboard in Resources */,
+				C55C15481AE0E3B800431774 /* LaunchScreen.xib in Resources */,
+				C55C15451AE0E3B800431774 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C154B1AE0E3B800431774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55C15341AE0E3B700431774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55C15401AE0E3B800431774 /* ViewController.swift in Sources */,
+				C55C153E1AE0E3B800431774 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55C15491AE0E3B800431774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55C15541AE0E3B800431774 /* First_CativersaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C55C154F1AE0E3B800431774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55C15371AE0E3B700431774 /* First Cativersary */;
+			targetProxy = C55C154E1AE0E3B800431774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C55C15411AE0E3B800431774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55C15421AE0E3B800431774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55C15461AE0E3B800431774 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55C15471AE0E3B800431774 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55C15551AE0E3B800431774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C55C15561AE0E3B800431774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55C15581AE0E3B800431774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "First Cativersary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C55C15591AE0E3B800431774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "First Cativersary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C55C155B1AE0E3B800431774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First CativersaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First Cativersary.app/First Cativersary";
+			};
+			name = Debug;
+		};
+		C55C155C1AE0E3B800431774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "First CativersaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First Cativersary.app/First Cativersary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55C15331AE0E3B700431774 /* Build configuration list for PBXProject "First Cativersary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55C15551AE0E3B800431774 /* Debug */,
+				C55C15561AE0E3B800431774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55C15571AE0E3B800431774 /* Build configuration list for PBXNativeTarget "First Cativersary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55C15581AE0E3B800431774 /* Debug */,
+				C55C15591AE0E3B800431774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55C155A1AE0E3B800431774 /* Build configuration list for PBXNativeTarget "First CativersaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55C155B1AE0E3B800431774 /* Debug */,
+				C55C155C1AE0E3B800431774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55C15301AE0E3B700431774 /* Project object */;
+}
