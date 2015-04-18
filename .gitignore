@@ -9,3 +9,5 @@ FirstCativersaryTests
 *.jpg
 *.mp3
 *.sks
+*~
+#*#
