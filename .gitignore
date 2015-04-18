@@ -1,0 +1,10 @@
+*.xcodeproj
+First CativersaryTests
+*.xcassets
+*.lproj
+*.plist
+*.png
+*.gif
+*.pdf
+*.jpg
+*.mp3
